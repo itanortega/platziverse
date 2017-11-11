@@ -4,7 +4,7 @@
   "description": "A simple IoT Platform - DB Module",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=platziverse:* ava tests/ --verbose",
+    "test": "DEBUG=platziverse:* nyc --reporter=lcov ava tests/ --verbose",
     "setup": "DEBUG=platziverse:* node setup.js",
     "lint": "standard"
   },
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/itanortega/platziverse#readme",
   "devDependencies": {
     "ava": "^0.23.0",
+    "nyc": "^11.3.0",
     "sqlite3": "^3.1.13",
     "standard": "^10.0.3"
   },
