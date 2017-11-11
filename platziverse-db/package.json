@@ -1,0 +1,22 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint" : "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itanortega/platziverse.git"
+  },
+  "author": "Christian Ortega - christian.s.ortega.o@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itanortega/platziverse/issues"
+  },
+  "homepage": "https://github.com/itanortega/platziverse#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
