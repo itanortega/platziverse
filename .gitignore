@@ -3,3 +3,4 @@ platziverse-db/coverage/*
 platziverse-db/coverage/lcov-report/*
 platziverse-db/.nyc_output/*
 platziverse-mqtt/node_modules/*
+platziverse-agent/node_modules/*
