@@ -1,0 +1,31 @@
+{
+  "name": "platziverse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple IoT Platform - API",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "start-dev": "DEBUG=platziverse:* nodemon server.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itanortega/platziverse.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itanortega/platziverse/issues"
+  },
+  "homepage": "https://github.com/itanortega/platziverse#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.5",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "debug": "^3.1.0",
+    "express": "^4.16.2"
+  }
+}
